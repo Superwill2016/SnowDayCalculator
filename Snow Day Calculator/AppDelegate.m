@@ -6,8 +6,11 @@
 //  Copyright © 2016 Stratton Design. All rights reserved.
 //
 
-#import "AppDelegate.h"
 
+#import "GAI.h"
+#import "GAIFields.h"
+#import "AppDelegate.h"
+#import "Appirater.h"
 @interface AppDelegate ()
 
 @end
@@ -16,7 +19,25 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+    [GAI sharedInstance].trackUncaughtExceptions = YES;
+    
+    // 2
+    [[GAI sharedInstance].logger setLogLevel:kGAILogLevelNone];
+    
+    // 3
+    [GAI sharedInstance].dispatchInterval = 15;
+    
+    // 4
+    id<GAITracker> tracker = [[GAI sharedInstance] trackerWithTrackingId:@"UA-74032460-1"];
+    
+    [Appirater setAppId:@"1082537754"];
+    [Appirater setDaysUntilPrompt:0];
+    [Appirater setUsesUntilPrompt:3];
+    [Appirater setSignificantEventsUntilPrompt:2];
+    [Appirater setTimeBeforeReminding:2];
+    [Appirater setDebug:NO];
+    [Appirater appLaunched:YES];
+    
     return YES;
 }
 

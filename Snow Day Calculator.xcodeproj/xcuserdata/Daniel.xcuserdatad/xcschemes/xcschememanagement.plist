@@ -6,12 +6,19 @@
 	<dict>
 		<key>Snow Day Calculator.xcscheme</key>
 		<dict>
+			<key>isShown</key>
+			<true/>
 			<key>orderHint</key>
 			<integer>0</integer>
 		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
+		<key>65596DAE1C79220D0015BD2A</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>65755EBC1C680CC500BFBA79</key>
 		<dict>
 			<key>primary</key>
@@ -23,6 +30,16 @@
 			<true/>
 		</dict>
 		<key>65755EE01C680CC600BFBA79</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>65ACBED81C691E6E000368BF</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>65ACBEEF1C691EBB000368BF</key>
 		<dict>
 			<key>primary</key>
 			<true/>

@@ -7,6 +7,29 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		650CE7F91C9EE98B002300CD /* GoogleMobileAds.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 650CE7F81C9EE98B002300CD /* GoogleMobileAds.framework */; };
+		650CE7FB1C9EE9AB002300CD /* libGoogleAnalyticsServices.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 650CE7FA1C9EE9AB002300CD /* libGoogleAnalyticsServices.a */; };
+		650EB0C81C718771003284AD /* material.png in Resources */ = {isa = PBXBuildFile; fileRef = 650EB0C71C718771003284AD /* material.png */; };
+		6519D3A11C77D4B50019F96C /* MBCircularProgressBarLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 6519D39E1C77D4B50019F96C /* MBCircularProgressBarLayer.m */; };
+		6519D3A21C77D4B50019F96C /* MBCircularProgressBarView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6519D3A01C77D4B50019F96C /* MBCircularProgressBarView.m */; };
+		6519D3A81C77E2640019F96C /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6519D3A71C77E2640019F96C /* CFNetwork.framework */; };
+		6519D3AB1C77E2A20019F96C /* Appirater.m in Sources */ = {isa = PBXBuildFile; fileRef = 6519D3AA1C77E2A20019F96C /* Appirater.m */; };
+		651A55B21C68FAF700EE0893 /* UIColor+BFPaperColors.m in Sources */ = {isa = PBXBuildFile; fileRef = 651A55B11C68FAF700EE0893 /* UIColor+BFPaperColors.m */; };
+		651A55B51C68FB1600EE0893 /* BFPaperButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 651A55B41C68FB1600EE0893 /* BFPaperButton.m */; };
+		651A55B81C68FC2800EE0893 /* startViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 651A55B71C68FC2800EE0893 /* startViewController.m */; };
+		651A55BB1C68FD9F00EE0893 /* JTMaterialTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = 651A55BA1C68FD9F00EE0893 /* JTMaterialTransition.m */; };
+		652214E31C695CD4008A71AA /* 750x1334.png in Resources */ = {isa = PBXBuildFile; fileRef = 652214DF1C695CD4008A71AA /* 750x1334.png */; };
+		652214E41C695CD4008A71AA /* 1242x 2208.png in Resources */ = {isa = PBXBuildFile; fileRef = 652214E01C695CD4008A71AA /* 1242x 2208.png */; };
+		652214E51C695CD4008A71AA /* 640x1136.png in Resources */ = {isa = PBXBuildFile; fileRef = 652214E11C695CD4008A71AA /* 640x1136.png */; };
+		652214E61C695CD4008A71AA /* 640x960.png in Resources */ = {isa = PBXBuildFile; fileRef = 652214E21C695CD4008A71AA /* 640x960.png */; };
+		6531E9BC1C7405FA00240213 /* libz.1.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 6531E9BA1C7405D400240213 /* libz.1.dylib */; };
+		6531E9BE1C74061600240213 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 6531E9BD1C74061600240213 /* libsqlite3.dylib */; };
+		65356D9B1C751775003B16A1 /* MCNewCustomLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 65356D911C751775003B16A1 /* MCNewCustomLayer.m */; };
+		65356D9C1C751775003B16A1 /* MCNewCustomLayeredView.m in Sources */ = {isa = PBXBuildFile; fileRef = 65356D931C751775003B16A1 /* MCNewCustomLayeredView.m */; };
+		65356D9D1C751775003B16A1 /* MCPercentageDoughnutView.m in Sources */ = {isa = PBXBuildFile; fileRef = 65356D961C751775003B16A1 /* MCPercentageDoughnutView.m */; };
+		65356D9E1C751775003B16A1 /* MCSliceLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 65356D981C751775003B16A1 /* MCSliceLayer.m */; };
+		65356D9F1C751775003B16A1 /* MCUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 65356D9A1C751775003B16A1 /* MCUtil.m */; };
+		65596DBC1C79220D0015BD2A /* Snow Day App Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 65596DBB1C79220D0015BD2A /* Snow Day App Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		65755EC21C680CC500BFBA79 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 65755EC11C680CC500BFBA79 /* main.m */; };
 		65755EC51C680CC500BFBA79 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 65755EC41C680CC500BFBA79 /* AppDelegate.m */; };
 		65755EC81C680CC500BFBA79 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 65755EC71C680CC500BFBA79 /* ViewController.m */; };
@@ -14,10 +37,91 @@
 		65755ECD1C680CC500BFBA79 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 65755ECC1C680CC500BFBA79 /* Assets.xcassets */; };
 		65755ED01C680CC500BFBA79 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 65755ECE1C680CC500BFBA79 /* LaunchScreen.storyboard */; };
 		65755EDB1C680CC600BFBA79 /* Snow_Day_CalculatorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 65755EDA1C680CC600BFBA79 /* Snow_Day_CalculatorTests.m */; };
-		65755EE61C680CC600BFBA79 /* Snow_Day_CalculatorUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 65755EE51C680CC600BFBA79 /* Snow_Day_CalculatorUITests.m */; };
+		65755F3A1C6833F400BFBA79 /* DGActivityIndicatorBallBeatAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 65755EF61C6833F400BFBA79 /* DGActivityIndicatorBallBeatAnimation.m */; };
+		65755F3B1C6833F400BFBA79 /* DGActivityIndicatorBallClipRotateAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 65755EF81C6833F400BFBA79 /* DGActivityIndicatorBallClipRotateAnimation.m */; };
+		65755F3C1C6833F400BFBA79 /* DGActivityIndicatorBallClipRotateMultipleAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 65755EFA1C6833F400BFBA79 /* DGActivityIndicatorBallClipRotateMultipleAnimation.m */; };
+		65755F3D1C6833F400BFBA79 /* DGActivityIndicatorBallClipRotatePulseAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 65755EFC1C6833F400BFBA79 /* DGActivityIndicatorBallClipRotatePulseAnimation.m */; };
+		65755F3E1C6833F400BFBA79 /* DGActivityIndicatorBallGridBeatAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 65755EFE1C6833F400BFBA79 /* DGActivityIndicatorBallGridBeatAnimation.m */; };
+		65755F3F1C6833F400BFBA79 /* DGActivityIndicatorBallGridPulseAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 65755F001C6833F400BFBA79 /* DGActivityIndicatorBallGridPulseAnimation.m */; };
+		65755F401C6833F400BFBA79 /* DGActivityIndicatorBallPulseAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 65755F021C6833F400BFBA79 /* DGActivityIndicatorBallPulseAnimation.m */; };
+		65755F411C6833F400BFBA79 /* DGActivityIndicatorBallPulseSyncAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 65755F041C6833F400BFBA79 /* DGActivityIndicatorBallPulseSyncAnimation.m */; };
+		65755F421C6833F400BFBA79 /* DGActivityIndicatorBallRotateAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 65755F061C6833F400BFBA79 /* DGActivityIndicatorBallRotateAnimation.m */; };
+		65755F431C6833F400BFBA79 /* DGActivityIndicatorBallScaleAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 65755F081C6833F400BFBA79 /* DGActivityIndicatorBallScaleAnimation.m */; };
+		65755F441C6833F400BFBA79 /* DGActivityIndicatorBallScaleMultipleAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 65755F0A1C6833F400BFBA79 /* DGActivityIndicatorBallScaleMultipleAnimation.m */; };
+		65755F451C6833F400BFBA79 /* DGActivityIndicatorBallScaleRippleAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 65755F0C1C6833F400BFBA79 /* DGActivityIndicatorBallScaleRippleAnimation.m */; };
+		65755F461C6833F400BFBA79 /* DGActivityIndicatorBallScaleRippleMultipleAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 65755F0E1C6833F400BFBA79 /* DGActivityIndicatorBallScaleRippleMultipleAnimation.m */; };
+		65755F471C6833F400BFBA79 /* DGActivityIndicatorBallSpinFadeLoader.m in Sources */ = {isa = PBXBuildFile; fileRef = 65755F101C6833F400BFBA79 /* DGActivityIndicatorBallSpinFadeLoader.m */; };
+		65755F481C6833F400BFBA79 /* DGActivityIndicatorBallTrianglePathAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 65755F121C6833F400BFBA79 /* DGActivityIndicatorBallTrianglePathAnimation.m */; };
+		65755F491C6833F400BFBA79 /* DGActivityIndicatorBallZigZagAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 65755F141C6833F400BFBA79 /* DGActivityIndicatorBallZigZagAnimation.m */; };
+		65755F4A1C6833F400BFBA79 /* DGActivityIndicatorBallZigZagDeflectAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 65755F161C6833F400BFBA79 /* DGActivityIndicatorBallZigZagDeflectAnimation.m */; };
+		65755F4B1C6833F400BFBA79 /* DGActivityIndicatorCookieTerminatorAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 65755F181C6833F400BFBA79 /* DGActivityIndicatorCookieTerminatorAnimation.m */; };
+		65755F4C1C6833F400BFBA79 /* DGActivityIndicatorDoubleBounceAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 65755F1A1C6833F400BFBA79 /* DGActivityIndicatorDoubleBounceAnimation.m */; };
+		65755F4D1C6833F400BFBA79 /* DGActivityIndicatorFiveDotsAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 65755F1C1C6833F400BFBA79 /* DGActivityIndicatorFiveDotsAnimation.m */; };
+		65755F4E1C6833F400BFBA79 /* DGActivityIndicatorLineScaleAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 65755F1E1C6833F400BFBA79 /* DGActivityIndicatorLineScaleAnimation.m */; };
+		65755F4F1C6833F400BFBA79 /* DGActivityIndicatorLineScalePartyAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 65755F201C6833F400BFBA79 /* DGActivityIndicatorLineScalePartyAnimation.m */; };
+		65755F501C6833F400BFBA79 /* DGActivityIndicatorLineScalePulseOutAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 65755F221C6833F400BFBA79 /* DGActivityIndicatorLineScalePulseOutAnimation.m */; };
+		65755F511C6833F400BFBA79 /* DGActivityIndicatorLineScalePulseOutRapidAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 65755F241C6833F400BFBA79 /* DGActivityIndicatorLineScalePulseOutRapidAnimation.m */; };
+		65755F521C6833F400BFBA79 /* DGActivityIndicatorNineDotsAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 65755F261C6833F400BFBA79 /* DGActivityIndicatorNineDotsAnimation.m */; };
+		65755F531C6833F400BFBA79 /* DGActivityIndicatorRotatingSandglassAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 65755F281C6833F400BFBA79 /* DGActivityIndicatorRotatingSandglassAnimation.m */; };
+		65755F541C6833F400BFBA79 /* DGActivityIndicatorRotatingSquaresAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 65755F2A1C6833F400BFBA79 /* DGActivityIndicatorRotatingSquaresAnimation.m */; };
+		65755F551C6833F400BFBA79 /* DGActivityIndicatorRotatingTrigonAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 65755F2C1C6833F400BFBA79 /* DGActivityIndicatorRotatingTrigonAnimation.m */; };
+		65755F561C6833F400BFBA79 /* DGActivityIndicatorThreeDotsAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 65755F2E1C6833F400BFBA79 /* DGActivityIndicatorThreeDotsAnimation.m */; };
+		65755F571C6833F400BFBA79 /* DGActivityIndicatorTriangleSkewSpinAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 65755F301C6833F400BFBA79 /* DGActivityIndicatorTriangleSkewSpinAnimation.m */; };
+		65755F581C6833F400BFBA79 /* DGActivityIndicatorTriplePulseAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 65755F321C6833F400BFBA79 /* DGActivityIndicatorTriplePulseAnimation.m */; };
+		65755F591C6833F400BFBA79 /* DGActivityIndicatorTripleRingsAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 65755F341C6833F400BFBA79 /* DGActivityIndicatorTripleRingsAnimation.m */; };
+		65755F5A1C6833F400BFBA79 /* DGActivityIndicatorTwoDotsAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 65755F361C6833F400BFBA79 /* DGActivityIndicatorTwoDotsAnimation.m */; };
+		65755F5B1C6833F400BFBA79 /* DGActivityIndicatorView.m in Sources */ = {isa = PBXBuildFile; fileRef = 65755F391C6833F400BFBA79 /* DGActivityIndicatorView.m */; };
+		65755F5F1C6837CD00BFBA79 /* YRActivityIndicator.m in Sources */ = {isa = PBXBuildFile; fileRef = 65755F5E1C6837CD00BFBA79 /* YRActivityIndicator.m */; };
+		65907F2C1C73EFB00049A5AC /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65907F2B1C73EFB00049A5AC /* AdSupport.framework */; };
+		65907F2E1C73EFB60049A5AC /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65907F2D1C73EFB60049A5AC /* AudioToolbox.framework */; };
+		65907F301C73EFBC0049A5AC /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65907F2F1C73EFBC0049A5AC /* AVFoundation.framework */; };
+		65907F321C73EFC30049A5AC /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65907F311C73EFC30049A5AC /* CoreGraphics.framework */; };
+		65907F341C73EFCB0049A5AC /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65907F331C73EFCB0049A5AC /* CoreMedia.framework */; };
+		65907F361C73EFD20049A5AC /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65907F351C73EFD20049A5AC /* CoreTelephony.framework */; };
+		65907F391C73EFDF0049A5AC /* EventKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65907F371C73EFDF0049A5AC /* EventKit.framework */; };
+		65907F3A1C73EFDF0049A5AC /* EventKitUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65907F381C73EFDF0049A5AC /* EventKitUI.framework */; };
+		65907F3C1C73EFE60049A5AC /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65907F3B1C73EFE60049A5AC /* StoreKit.framework */; };
+		65907F3E1C73EFEC0049A5AC /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65907F3D1C73EFEC0049A5AC /* SystemConfiguration.framework */; };
+		65907F441C7401AA0049A5AC /* materialLandscape.png in Resources */ = {isa = PBXBuildFile; fileRef = 65907F431C7401AA0049A5AC /* materialLandscape.png */; };
+		65907F521C74056D0049A5AC /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65907F511C74056D0049A5AC /* CoreData.framework */; };
+		659F2A4A1C6F959F003BFECC /* Roboto-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 659F2A3E1C6F959F003BFECC /* Roboto-Black.ttf */; };
+		659F2A4B1C6F959F003BFECC /* Roboto-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 659F2A3F1C6F959F003BFECC /* Roboto-BlackItalic.ttf */; };
+		659F2A4C1C6F959F003BFECC /* Roboto-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 659F2A401C6F959F003BFECC /* Roboto-Bold.ttf */; };
+		659F2A4D1C6F959F003BFECC /* Roboto-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 659F2A411C6F959F003BFECC /* Roboto-BoldItalic.ttf */; };
+		659F2A4E1C6F959F003BFECC /* Roboto-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 659F2A421C6F959F003BFECC /* Roboto-Italic.ttf */; };
+		659F2A4F1C6F959F003BFECC /* Roboto-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 659F2A431C6F959F003BFECC /* Roboto-Light.ttf */; };
+		659F2A501C6F959F003BFECC /* Roboto-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 659F2A441C6F959F003BFECC /* Roboto-LightItalic.ttf */; };
+		659F2A511C6F959F003BFECC /* Roboto-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 659F2A451C6F959F003BFECC /* Roboto-Medium.ttf */; };
+		659F2A521C6F959F003BFECC /* Roboto-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 659F2A461C6F959F003BFECC /* Roboto-MediumItalic.ttf */; };
+		659F2A531C6F959F003BFECC /* Roboto-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 659F2A471C6F959F003BFECC /* Roboto-Regular.ttf */; };
+		659F2A541C6F959F003BFECC /* Roboto-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 659F2A481C6F959F003BFECC /* Roboto-Thin.ttf */; };
+		659F2A551C6F959F003BFECC /* Roboto-ThinItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 659F2A491C6F959F003BFECC /* Roboto-ThinItalic.ttf */; };
+		659F2A5B1C6F9A95003BFECC /* UIViewController+MaterialDesign.m in Sources */ = {isa = PBXBuildFile; fileRef = 659F2A5A1C6F9A95003BFECC /* UIViewController+MaterialDesign.m */; };
+		65AB89E01C6910030059AF30 /* SnowDayIcon180.png in Resources */ = {isa = PBXBuildFile; fileRef = 65AB89DB1C6910030059AF30 /* SnowDayIcon180.png */; };
+		65AB89E11C6910030059AF30 /* SnowDayIcon120.png in Resources */ = {isa = PBXBuildFile; fileRef = 65AB89DC1C6910030059AF30 /* SnowDayIcon120.png */; };
+		65AB89E21C6910030059AF30 /* SnowDayIcon80.png in Resources */ = {isa = PBXBuildFile; fileRef = 65AB89DD1C6910030059AF30 /* SnowDayIcon80.png */; };
+		65AB89E31C6910030059AF30 /* SnowDayIcon87.png in Resources */ = {isa = PBXBuildFile; fileRef = 65AB89DE1C6910030059AF30 /* SnowDayIcon87.png */; };
+		65AB89E41C6910030059AF30 /* SnowDayIcon58.png in Resources */ = {isa = PBXBuildFile; fileRef = 65AB89DF1C6910030059AF30 /* SnowDayIcon58.png */; };
+		65ACBEDC1C691E6E000368BF /* NotificationCenter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65ACBEDB1C691E6E000368BF /* NotificationCenter.framework */; };
+		65ACBEF11C691EBB000368BF /* NotificationCenter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65ACBEDB1C691E6E000368BF /* NotificationCenter.framework */; };
+		65B420F71C6EBF1200981502 /* ic_arrow@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 65B420F41C6EBF1200981502 /* ic_arrow@2x.png */; };
+		65B420F81C6EBF1200981502 /* ic_arrow@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 65B420F51C6EBF1200981502 /* ic_arrow@3x.png */; };
+		65B420F91C6EBF1200981502 /* ic_arrow.png in Resources */ = {isa = PBXBuildFile; fileRef = 65B420F61C6EBF1200981502 /* ic_arrow.png */; };
+		65B420FD1C6EC2A000981502 /* ic_share.png in Resources */ = {isa = PBXBuildFile; fileRef = 65B420FA1C6EC2A000981502 /* ic_share.png */; };
+		65B420FE1C6EC2A000981502 /* ic_share@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 65B420FB1C6EC2A000981502 /* ic_share@2x.png */; };
+		65B420FF1C6EC2A000981502 /* ic_share@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 65B420FC1C6EC2A000981502 /* ic_share@3x.png */; };
+		65EF89AE1C6B990E008121AD /* iAd.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65EF89AD1C6B990E008121AD /* iAd.framework */; };
+		65FE20D31C79660300A6651B /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 65FE20D21C79660300A6651B /* Reachability.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		65596DBD1C79220D0015BD2A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 65755EB51C680CC500BFBA79 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 65596DBA1C79220D0015BD2A;
+			remoteInfo = "Snow Day App Extension";
+		};
 		65755ED71C680CC600BFBA79 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 65755EB51C680CC500BFBA79 /* Project object */;
@@ -34,7 +138,80 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		65596DD41C79220D0015BD2A /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				65596DBC1C79220D0015BD2A /* Snow Day App Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		65596DD81C79220D0015BD2A /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		650CE7F81C9EE98B002300CD /* GoogleMobileAds.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleMobileAds.framework; sourceTree = "<group>"; };
+		650CE7FA1C9EE9AB002300CD /* libGoogleAnalyticsServices.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libGoogleAnalyticsServices.a; sourceTree = "<group>"; };
+		650EB0C71C718771003284AD /* material.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = material.png; sourceTree = "<group>"; };
+		6519D3911C77C6380019F96C /* GAI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GAI.h; sourceTree = "<group>"; };
+		6519D3921C77C6380019F96C /* GAIDictionaryBuilder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GAIDictionaryBuilder.h; sourceTree = "<group>"; };
+		6519D3931C77C6380019F96C /* GAIEcommerceFields.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GAIEcommerceFields.h; sourceTree = "<group>"; };
+		6519D3941C77C6380019F96C /* GAIEcommerceProduct.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GAIEcommerceProduct.h; sourceTree = "<group>"; };
+		6519D3951C77C6380019F96C /* GAIEcommerceProductAction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GAIEcommerceProductAction.h; sourceTree = "<group>"; };
+		6519D3961C77C6380019F96C /* GAIEcommercePromotion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GAIEcommercePromotion.h; sourceTree = "<group>"; };
+		6519D3971C77C6380019F96C /* GAIFields.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GAIFields.h; sourceTree = "<group>"; };
+		6519D3981C77C6380019F96C /* GAILogger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GAILogger.h; sourceTree = "<group>"; };
+		6519D3991C77C6380019F96C /* GAITrackedViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GAITrackedViewController.h; sourceTree = "<group>"; };
+		6519D39A1C77C6380019F96C /* GAITracker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GAITracker.h; sourceTree = "<group>"; };
+		6519D39D1C77D4B50019F96C /* MBCircularProgressBarLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBCircularProgressBarLayer.h; sourceTree = "<group>"; };
+		6519D39E1C77D4B50019F96C /* MBCircularProgressBarLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBCircularProgressBarLayer.m; sourceTree = "<group>"; };
+		6519D39F1C77D4B50019F96C /* MBCircularProgressBarView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBCircularProgressBarView.h; sourceTree = "<group>"; };
+		6519D3A01C77D4B50019F96C /* MBCircularProgressBarView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBCircularProgressBarView.m; sourceTree = "<group>"; };
+		6519D3A71C77E2640019F96C /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		6519D3A91C77E2A20019F96C /* Appirater.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Appirater.h; sourceTree = "<group>"; };
+		6519D3AA1C77E2A20019F96C /* Appirater.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Appirater.m; sourceTree = "<group>"; };
+		6519D3AC1C77E2B60019F96C /* AppiraterDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppiraterDelegate.h; sourceTree = "<group>"; };
+		651A55B01C68FAF700EE0893 /* UIColor+BFPaperColors.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIColor+BFPaperColors.h"; path = "DGActivityIndicatorView/UIColor+BFPaperColors.h"; sourceTree = "<group>"; };
+		651A55B11C68FAF700EE0893 /* UIColor+BFPaperColors.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIColor+BFPaperColors.m"; path = "DGActivityIndicatorView/UIColor+BFPaperColors.m"; sourceTree = "<group>"; };
+		651A55B31C68FB1600EE0893 /* BFPaperButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BFPaperButton.h; sourceTree = "<group>"; };
+		651A55B41C68FB1600EE0893 /* BFPaperButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BFPaperButton.m; sourceTree = "<group>"; };
+		651A55B61C68FC2800EE0893 /* startViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = startViewController.h; sourceTree = "<group>"; };
+		651A55B71C68FC2800EE0893 /* startViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = startViewController.m; sourceTree = "<group>"; };
+		651A55B91C68FD9F00EE0893 /* JTMaterialTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JTMaterialTransition.h; sourceTree = "<group>"; };
+		651A55BA1C68FD9F00EE0893 /* JTMaterialTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JTMaterialTransition.m; sourceTree = "<group>"; };
+		652214DF1C695CD4008A71AA /* 750x1334.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 750x1334.png; sourceTree = "<group>"; };
+		652214E01C695CD4008A71AA /* 1242x 2208.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "1242x 2208.png"; sourceTree = "<group>"; };
+		652214E11C695CD4008A71AA /* 640x1136.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 640x1136.png; sourceTree = "<group>"; };
+		652214E21C695CD4008A71AA /* 640x960.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 640x960.png; sourceTree = "<group>"; };
+		6531E9BA1C7405D400240213 /* libz.1.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.1.dylib; path = ../../../../usr/lib/libz.1.dylib; sourceTree = "<group>"; };
+		6531E9BD1C74061600240213 /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = ../../../../usr/lib/libsqlite3.dylib; sourceTree = "<group>"; };
+		65356D8F1C751775003B16A1 /* MCCore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCCore.h; sourceTree = "<group>"; };
+		65356D901C751775003B16A1 /* MCNewCustomLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCNewCustomLayer.h; sourceTree = "<group>"; };
+		65356D911C751775003B16A1 /* MCNewCustomLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MCNewCustomLayer.m; sourceTree = "<group>"; };
+		65356D921C751775003B16A1 /* MCNewCustomLayeredView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCNewCustomLayeredView.h; sourceTree = "<group>"; };
+		65356D931C751775003B16A1 /* MCNewCustomLayeredView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MCNewCustomLayeredView.m; sourceTree = "<group>"; };
+		65356D941C751775003B16A1 /* MCNewCustomLayeredView+MCCustomLayeredViewSubclass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MCNewCustomLayeredView+MCCustomLayeredViewSubclass.h"; sourceTree = "<group>"; };
+		65356D951C751775003B16A1 /* MCPercentageDoughnutView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCPercentageDoughnutView.h; sourceTree = "<group>"; };
+		65356D961C751775003B16A1 /* MCPercentageDoughnutView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MCPercentageDoughnutView.m; sourceTree = "<group>"; };
+		65356D971C751775003B16A1 /* MCSliceLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCSliceLayer.h; sourceTree = "<group>"; };
+		65356D981C751775003B16A1 /* MCSliceLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MCSliceLayer.m; sourceTree = "<group>"; };
+		65356D991C751775003B16A1 /* MCUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCUtil.h; sourceTree = "<group>"; };
+		65356D9A1C751775003B16A1 /* MCUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MCUtil.m; sourceTree = "<group>"; };
+		65596DAF1C79220D0015BD2A /* Snow Day App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Snow Day App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		65596DBB1C79220D0015BD2A /* Snow Day App Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Snow Day App Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
 		65755EBD1C680CC500BFBA79 /* Snow Day Calculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Snow Day Calculator.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		65755EC11C680CC500BFBA79 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		65755EC31C680CC500BFBA79 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -49,15 +226,151 @@
 		65755EDA1C680CC600BFBA79 /* Snow_Day_CalculatorTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Snow_Day_CalculatorTests.m; sourceTree = "<group>"; };
 		65755EDC1C680CC600BFBA79 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		65755EE11C680CC600BFBA79 /* Snow Day CalculatorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Snow Day CalculatorUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		65755EE51C680CC600BFBA79 /* Snow_Day_CalculatorUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Snow_Day_CalculatorUITests.m; sourceTree = "<group>"; };
-		65755EE71C680CC600BFBA79 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		65755EF51C6833F400BFBA79 /* DGActivityIndicatorBallBeatAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DGActivityIndicatorBallBeatAnimation.h; sourceTree = "<group>"; };
+		65755EF61C6833F400BFBA79 /* DGActivityIndicatorBallBeatAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DGActivityIndicatorBallBeatAnimation.m; sourceTree = "<group>"; };
+		65755EF71C6833F400BFBA79 /* DGActivityIndicatorBallClipRotateAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DGActivityIndicatorBallClipRotateAnimation.h; sourceTree = "<group>"; };
+		65755EF81C6833F400BFBA79 /* DGActivityIndicatorBallClipRotateAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DGActivityIndicatorBallClipRotateAnimation.m; sourceTree = "<group>"; };
+		65755EF91C6833F400BFBA79 /* DGActivityIndicatorBallClipRotateMultipleAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DGActivityIndicatorBallClipRotateMultipleAnimation.h; sourceTree = "<group>"; };
+		65755EFA1C6833F400BFBA79 /* DGActivityIndicatorBallClipRotateMultipleAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DGActivityIndicatorBallClipRotateMultipleAnimation.m; sourceTree = "<group>"; };
+		65755EFB1C6833F400BFBA79 /* DGActivityIndicatorBallClipRotatePulseAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DGActivityIndicatorBallClipRotatePulseAnimation.h; sourceTree = "<group>"; };
+		65755EFC1C6833F400BFBA79 /* DGActivityIndicatorBallClipRotatePulseAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DGActivityIndicatorBallClipRotatePulseAnimation.m; sourceTree = "<group>"; };
+		65755EFD1C6833F400BFBA79 /* DGActivityIndicatorBallGridBeatAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DGActivityIndicatorBallGridBeatAnimation.h; sourceTree = "<group>"; };
+		65755EFE1C6833F400BFBA79 /* DGActivityIndicatorBallGridBeatAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DGActivityIndicatorBallGridBeatAnimation.m; sourceTree = "<group>"; };
+		65755EFF1C6833F400BFBA79 /* DGActivityIndicatorBallGridPulseAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DGActivityIndicatorBallGridPulseAnimation.h; sourceTree = "<group>"; };
+		65755F001C6833F400BFBA79 /* DGActivityIndicatorBallGridPulseAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DGActivityIndicatorBallGridPulseAnimation.m; sourceTree = "<group>"; };
+		65755F011C6833F400BFBA79 /* DGActivityIndicatorBallPulseAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DGActivityIndicatorBallPulseAnimation.h; sourceTree = "<group>"; };
+		65755F021C6833F400BFBA79 /* DGActivityIndicatorBallPulseAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DGActivityIndicatorBallPulseAnimation.m; sourceTree = "<group>"; };
+		65755F031C6833F400BFBA79 /* DGActivityIndicatorBallPulseSyncAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DGActivityIndicatorBallPulseSyncAnimation.h; sourceTree = "<group>"; };
+		65755F041C6833F400BFBA79 /* DGActivityIndicatorBallPulseSyncAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DGActivityIndicatorBallPulseSyncAnimation.m; sourceTree = "<group>"; };
+		65755F051C6833F400BFBA79 /* DGActivityIndicatorBallRotateAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DGActivityIndicatorBallRotateAnimation.h; sourceTree = "<group>"; };
+		65755F061C6833F400BFBA79 /* DGActivityIndicatorBallRotateAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DGActivityIndicatorBallRotateAnimation.m; sourceTree = "<group>"; };
+		65755F071C6833F400BFBA79 /* DGActivityIndicatorBallScaleAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DGActivityIndicatorBallScaleAnimation.h; sourceTree = "<group>"; };
+		65755F081C6833F400BFBA79 /* DGActivityIndicatorBallScaleAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DGActivityIndicatorBallScaleAnimation.m; sourceTree = "<group>"; };
+		65755F091C6833F400BFBA79 /* DGActivityIndicatorBallScaleMultipleAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DGActivityIndicatorBallScaleMultipleAnimation.h; sourceTree = "<group>"; };
+		65755F0A1C6833F400BFBA79 /* DGActivityIndicatorBallScaleMultipleAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DGActivityIndicatorBallScaleMultipleAnimation.m; sourceTree = "<group>"; };
+		65755F0B1C6833F400BFBA79 /* DGActivityIndicatorBallScaleRippleAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DGActivityIndicatorBallScaleRippleAnimation.h; sourceTree = "<group>"; };
+		65755F0C1C6833F400BFBA79 /* DGActivityIndicatorBallScaleRippleAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DGActivityIndicatorBallScaleRippleAnimation.m; sourceTree = "<group>"; };
+		65755F0D1C6833F400BFBA79 /* DGActivityIndicatorBallScaleRippleMultipleAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DGActivityIndicatorBallScaleRippleMultipleAnimation.h; sourceTree = "<group>"; };
+		65755F0E1C6833F400BFBA79 /* DGActivityIndicatorBallScaleRippleMultipleAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DGActivityIndicatorBallScaleRippleMultipleAnimation.m; sourceTree = "<group>"; };
+		65755F0F1C6833F400BFBA79 /* DGActivityIndicatorBallSpinFadeLoader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DGActivityIndicatorBallSpinFadeLoader.h; sourceTree = "<group>"; };
+		65755F101C6833F400BFBA79 /* DGActivityIndicatorBallSpinFadeLoader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DGActivityIndicatorBallSpinFadeLoader.m; sourceTree = "<group>"; };
+		65755F111C6833F400BFBA79 /* DGActivityIndicatorBallTrianglePathAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DGActivityIndicatorBallTrianglePathAnimation.h; sourceTree = "<group>"; };
+		65755F121C6833F400BFBA79 /* DGActivityIndicatorBallTrianglePathAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DGActivityIndicatorBallTrianglePathAnimation.m; sourceTree = "<group>"; };
+		65755F131C6833F400BFBA79 /* DGActivityIndicatorBallZigZagAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DGActivityIndicatorBallZigZagAnimation.h; sourceTree = "<group>"; };
+		65755F141C6833F400BFBA79 /* DGActivityIndicatorBallZigZagAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DGActivityIndicatorBallZigZagAnimation.m; sourceTree = "<group>"; };
+		65755F151C6833F400BFBA79 /* DGActivityIndicatorBallZigZagDeflectAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DGActivityIndicatorBallZigZagDeflectAnimation.h; sourceTree = "<group>"; };
+		65755F161C6833F400BFBA79 /* DGActivityIndicatorBallZigZagDeflectAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DGActivityIndicatorBallZigZagDeflectAnimation.m; sourceTree = "<group>"; };
+		65755F171C6833F400BFBA79 /* DGActivityIndicatorCookieTerminatorAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DGActivityIndicatorCookieTerminatorAnimation.h; sourceTree = "<group>"; };
+		65755F181C6833F400BFBA79 /* DGActivityIndicatorCookieTerminatorAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DGActivityIndicatorCookieTerminatorAnimation.m; sourceTree = "<group>"; };
+		65755F191C6833F400BFBA79 /* DGActivityIndicatorDoubleBounceAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DGActivityIndicatorDoubleBounceAnimation.h; sourceTree = "<group>"; };
+		65755F1A1C6833F400BFBA79 /* DGActivityIndicatorDoubleBounceAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DGActivityIndicatorDoubleBounceAnimation.m; sourceTree = "<group>"; };
+		65755F1B1C6833F400BFBA79 /* DGActivityIndicatorFiveDotsAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DGActivityIndicatorFiveDotsAnimation.h; sourceTree = "<group>"; };
+		65755F1C1C6833F400BFBA79 /* DGActivityIndicatorFiveDotsAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DGActivityIndicatorFiveDotsAnimation.m; sourceTree = "<group>"; };
+		65755F1D1C6833F400BFBA79 /* DGActivityIndicatorLineScaleAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DGActivityIndicatorLineScaleAnimation.h; sourceTree = "<group>"; };
+		65755F1E1C6833F400BFBA79 /* DGActivityIndicatorLineScaleAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DGActivityIndicatorLineScaleAnimation.m; sourceTree = "<group>"; };
+		65755F1F1C6833F400BFBA79 /* DGActivityIndicatorLineScalePartyAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DGActivityIndicatorLineScalePartyAnimation.h; sourceTree = "<group>"; };
+		65755F201C6833F400BFBA79 /* DGActivityIndicatorLineScalePartyAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DGActivityIndicatorLineScalePartyAnimation.m; sourceTree = "<group>"; };
+		65755F211C6833F400BFBA79 /* DGActivityIndicatorLineScalePulseOutAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DGActivityIndicatorLineScalePulseOutAnimation.h; sourceTree = "<group>"; };
+		65755F221C6833F400BFBA79 /* DGActivityIndicatorLineScalePulseOutAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DGActivityIndicatorLineScalePulseOutAnimation.m; sourceTree = "<group>"; };
+		65755F231C6833F400BFBA79 /* DGActivityIndicatorLineScalePulseOutRapidAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DGActivityIndicatorLineScalePulseOutRapidAnimation.h; sourceTree = "<group>"; };
+		65755F241C6833F400BFBA79 /* DGActivityIndicatorLineScalePulseOutRapidAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DGActivityIndicatorLineScalePulseOutRapidAnimation.m; sourceTree = "<group>"; };
+		65755F251C6833F400BFBA79 /* DGActivityIndicatorNineDotsAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DGActivityIndicatorNineDotsAnimation.h; sourceTree = "<group>"; };
+		65755F261C6833F400BFBA79 /* DGActivityIndicatorNineDotsAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DGActivityIndicatorNineDotsAnimation.m; sourceTree = "<group>"; };
+		65755F271C6833F400BFBA79 /* DGActivityIndicatorRotatingSandglassAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DGActivityIndicatorRotatingSandglassAnimation.h; sourceTree = "<group>"; };
+		65755F281C6833F400BFBA79 /* DGActivityIndicatorRotatingSandglassAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DGActivityIndicatorRotatingSandglassAnimation.m; sourceTree = "<group>"; };
+		65755F291C6833F400BFBA79 /* DGActivityIndicatorRotatingSquaresAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DGActivityIndicatorRotatingSquaresAnimation.h; sourceTree = "<group>"; };
+		65755F2A1C6833F400BFBA79 /* DGActivityIndicatorRotatingSquaresAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DGActivityIndicatorRotatingSquaresAnimation.m; sourceTree = "<group>"; };
+		65755F2B1C6833F400BFBA79 /* DGActivityIndicatorRotatingTrigonAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DGActivityIndicatorRotatingTrigonAnimation.h; sourceTree = "<group>"; };
+		65755F2C1C6833F400BFBA79 /* DGActivityIndicatorRotatingTrigonAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DGActivityIndicatorRotatingTrigonAnimation.m; sourceTree = "<group>"; };
+		65755F2D1C6833F400BFBA79 /* DGActivityIndicatorThreeDotsAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DGActivityIndicatorThreeDotsAnimation.h; sourceTree = "<group>"; };
+		65755F2E1C6833F400BFBA79 /* DGActivityIndicatorThreeDotsAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DGActivityIndicatorThreeDotsAnimation.m; sourceTree = "<group>"; };
+		65755F2F1C6833F400BFBA79 /* DGActivityIndicatorTriangleSkewSpinAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DGActivityIndicatorTriangleSkewSpinAnimation.h; sourceTree = "<group>"; };
+		65755F301C6833F400BFBA79 /* DGActivityIndicatorTriangleSkewSpinAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DGActivityIndicatorTriangleSkewSpinAnimation.m; sourceTree = "<group>"; };
+		65755F311C6833F400BFBA79 /* DGActivityIndicatorTriplePulseAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DGActivityIndicatorTriplePulseAnimation.h; sourceTree = "<group>"; };
+		65755F321C6833F400BFBA79 /* DGActivityIndicatorTriplePulseAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DGActivityIndicatorTriplePulseAnimation.m; sourceTree = "<group>"; };
+		65755F331C6833F400BFBA79 /* DGActivityIndicatorTripleRingsAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DGActivityIndicatorTripleRingsAnimation.h; sourceTree = "<group>"; };
+		65755F341C6833F400BFBA79 /* DGActivityIndicatorTripleRingsAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DGActivityIndicatorTripleRingsAnimation.m; sourceTree = "<group>"; };
+		65755F351C6833F400BFBA79 /* DGActivityIndicatorTwoDotsAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DGActivityIndicatorTwoDotsAnimation.h; sourceTree = "<group>"; };
+		65755F361C6833F400BFBA79 /* DGActivityIndicatorTwoDotsAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DGActivityIndicatorTwoDotsAnimation.m; sourceTree = "<group>"; };
+		65755F371C6833F400BFBA79 /* DGActivityIndicatorAnimationProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DGActivityIndicatorAnimationProtocol.h; sourceTree = "<group>"; };
+		65755F381C6833F400BFBA79 /* DGActivityIndicatorView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DGActivityIndicatorView.h; sourceTree = "<group>"; };
+		65755F391C6833F400BFBA79 /* DGActivityIndicatorView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DGActivityIndicatorView.m; sourceTree = "<group>"; };
+		65755F5D1C6837CD00BFBA79 /* YRActivityIndicator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YRActivityIndicator.h; sourceTree = "<group>"; };
+		65755F5E1C6837CD00BFBA79 /* YRActivityIndicator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YRActivityIndicator.m; sourceTree = "<group>"; };
+		65907F2B1C73EFB00049A5AC /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = System/Library/Frameworks/AdSupport.framework; sourceTree = SDKROOT; };
+		65907F2D1C73EFB60049A5AC /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		65907F2F1C73EFBC0049A5AC /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		65907F311C73EFC30049A5AC /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		65907F331C73EFCB0049A5AC /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		65907F351C73EFD20049A5AC /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		65907F371C73EFDF0049A5AC /* EventKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = EventKit.framework; path = System/Library/Frameworks/EventKit.framework; sourceTree = SDKROOT; };
+		65907F381C73EFDF0049A5AC /* EventKitUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = EventKitUI.framework; path = System/Library/Frameworks/EventKitUI.framework; sourceTree = SDKROOT; };
+		65907F3B1C73EFE60049A5AC /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		65907F3D1C73EFEC0049A5AC /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		65907F431C7401AA0049A5AC /* materialLandscape.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = materialLandscape.png; sourceTree = "<group>"; };
+		65907F511C74056D0049A5AC /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		659F2A3E1C6F959F003BFECC /* Roboto-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Black.ttf"; sourceTree = "<group>"; };
+		659F2A3F1C6F959F003BFECC /* Roboto-BlackItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-BlackItalic.ttf"; sourceTree = "<group>"; };
+		659F2A401C6F959F003BFECC /* Roboto-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Bold.ttf"; sourceTree = "<group>"; };
+		659F2A411C6F959F003BFECC /* Roboto-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-BoldItalic.ttf"; sourceTree = "<group>"; };
+		659F2A421C6F959F003BFECC /* Roboto-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Italic.ttf"; sourceTree = "<group>"; };
+		659F2A431C6F959F003BFECC /* Roboto-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Light.ttf"; sourceTree = "<group>"; };
+		659F2A441C6F959F003BFECC /* Roboto-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-LightItalic.ttf"; sourceTree = "<group>"; };
+		659F2A451C6F959F003BFECC /* Roboto-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Medium.ttf"; sourceTree = "<group>"; };
+		659F2A461C6F959F003BFECC /* Roboto-MediumItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-MediumItalic.ttf"; sourceTree = "<group>"; };
+		659F2A471C6F959F003BFECC /* Roboto-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Regular.ttf"; sourceTree = "<group>"; };
+		659F2A481C6F959F003BFECC /* Roboto-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Thin.ttf"; sourceTree = "<group>"; };
+		659F2A491C6F959F003BFECC /* Roboto-ThinItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-ThinItalic.ttf"; sourceTree = "<group>"; };
+		659F2A591C6F9A95003BFECC /* UIViewController+MaterialDesign.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+MaterialDesign.h"; sourceTree = "<group>"; };
+		659F2A5A1C6F9A95003BFECC /* UIViewController+MaterialDesign.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+MaterialDesign.m"; sourceTree = "<group>"; };
+		65AB89DB1C6910030059AF30 /* SnowDayIcon180.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SnowDayIcon180.png; sourceTree = "<group>"; };
+		65AB89DC1C6910030059AF30 /* SnowDayIcon120.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SnowDayIcon120.png; sourceTree = "<group>"; };
+		65AB89DD1C6910030059AF30 /* SnowDayIcon80.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SnowDayIcon80.png; sourceTree = "<group>"; };
+		65AB89DE1C6910030059AF30 /* SnowDayIcon87.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SnowDayIcon87.png; sourceTree = "<group>"; };
+		65AB89DF1C6910030059AF30 /* SnowDayIcon58.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SnowDayIcon58.png; sourceTree = "<group>"; };
+		65ACBED91C691E6E000368BF /* Snow.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = Snow.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		65ACBEDB1C691E6E000368BF /* NotificationCenter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = NotificationCenter.framework; path = System/Library/Frameworks/NotificationCenter.framework; sourceTree = SDKROOT; };
+		65ACBEF01C691EBB000368BF /* Snow Day Calculator Widget.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Snow Day Calculator Widget.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		65B420F41C6EBF1200981502 /* ic_arrow@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ic_arrow@2x.png"; sourceTree = "<group>"; };
+		65B420F51C6EBF1200981502 /* ic_arrow@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ic_arrow@3x.png"; sourceTree = "<group>"; };
+		65B420F61C6EBF1200981502 /* ic_arrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_arrow.png; sourceTree = "<group>"; };
+		65B420FA1C6EC2A000981502 /* ic_share.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_share.png; sourceTree = "<group>"; };
+		65B420FB1C6EC2A000981502 /* ic_share@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ic_share@2x.png"; sourceTree = "<group>"; };
+		65B420FC1C6EC2A000981502 /* ic_share@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ic_share@3x.png"; sourceTree = "<group>"; };
+		65EF89AD1C6B990E008121AD /* iAd.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = iAd.framework; path = System/Library/Frameworks/iAd.framework; sourceTree = SDKROOT; };
+		65FE20D11C79660300A6651B /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
+		65FE20D21C79660300A6651B /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		65596DB81C79220D0015BD2A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		65755EBA1C680CC500BFBA79 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6519D3A81C77E2640019F96C /* CFNetwork.framework in Frameworks */,
+				6531E9BE1C74061600240213 /* libsqlite3.dylib in Frameworks */,
+				6531E9BC1C7405FA00240213 /* libz.1.dylib in Frameworks */,
+				65907F521C74056D0049A5AC /* CoreData.framework in Frameworks */,
+				65907F3E1C73EFEC0049A5AC /* SystemConfiguration.framework in Frameworks */,
+				65907F3C1C73EFE60049A5AC /* StoreKit.framework in Frameworks */,
+				65907F391C73EFDF0049A5AC /* EventKit.framework in Frameworks */,
+				65907F3A1C73EFDF0049A5AC /* EventKitUI.framework in Frameworks */,
+				65907F361C73EFD20049A5AC /* CoreTelephony.framework in Frameworks */,
+				65907F341C73EFCB0049A5AC /* CoreMedia.framework in Frameworks */,
+				65907F321C73EFC30049A5AC /* CoreGraphics.framework in Frameworks */,
+				65907F301C73EFBC0049A5AC /* AVFoundation.framework in Frameworks */,
+				65907F2E1C73EFB60049A5AC /* AudioToolbox.framework in Frameworks */,
+				65907F2C1C73EFB00049A5AC /* AdSupport.framework in Frameworks */,
+				650CE7FB1C9EE9AB002300CD /* libGoogleAnalyticsServices.a in Frameworks */,
+				650CE7F91C9EE98B002300CD /* GoogleMobileAds.framework in Frameworks */,
+				65EF89AE1C6B990E008121AD /* iAd.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -75,15 +388,48 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		65ACBED61C691E6E000368BF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65ACBEDC1C691E6E000368BF /* NotificationCenter.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		65ACBEED1C691EBB000368BF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65ACBEF11C691EBB000368BF /* NotificationCenter.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6519D3901C77C6380019F96C /* Library */ = {
+			isa = PBXGroup;
+			children = (
+				6519D3911C77C6380019F96C /* GAI.h */,
+				6519D3921C77C6380019F96C /* GAIDictionaryBuilder.h */,
+				6519D3931C77C6380019F96C /* GAIEcommerceFields.h */,
+				6519D3941C77C6380019F96C /* GAIEcommerceProduct.h */,
+				6519D3951C77C6380019F96C /* GAIEcommerceProductAction.h */,
+				6519D3961C77C6380019F96C /* GAIEcommercePromotion.h */,
+				6519D3971C77C6380019F96C /* GAIFields.h */,
+				6519D3981C77C6380019F96C /* GAILogger.h */,
+				6519D3991C77C6380019F96C /* GAITrackedViewController.h */,
+				6519D39A1C77C6380019F96C /* GAITracker.h */,
+			);
+			path = Library;
+			sourceTree = "<group>";
+		};
 		65755EB41C680CC500BFBA79 = {
 			isa = PBXGroup;
 			children = (
 				65755EBF1C680CC500BFBA79 /* Snow Day Calculator */,
 				65755ED91C680CC600BFBA79 /* Snow Day CalculatorTests */,
-				65755EE41C680CC600BFBA79 /* Snow Day CalculatorUITests */,
+				65ACBEDA1C691E6E000368BF /* Frameworks */,
 				65755EBE1C680CC500BFBA79 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -94,6 +440,10 @@
 				65755EBD1C680CC500BFBA79 /* Snow Day Calculator.app */,
 				65755ED61C680CC600BFBA79 /* Snow Day CalculatorTests.xctest */,
 				65755EE11C680CC600BFBA79 /* Snow Day CalculatorUITests.xctest */,
+				65ACBED91C691E6E000368BF /* Snow.appex */,
+				65ACBEF01C691EBB000368BF /* Snow Day Calculator Widget.appex */,
+				65596DAF1C79220D0015BD2A /* Snow Day App.app */,
+				65596DBB1C79220D0015BD2A /* Snow Day App Extension.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -101,6 +451,16 @@
 		65755EBF1C680CC500BFBA79 /* Snow Day Calculator */ = {
 			isa = PBXGroup;
 			children = (
+				650CE7FA1C9EE9AB002300CD /* libGoogleAnalyticsServices.a */,
+				650CE7F81C9EE98B002300CD /* GoogleMobileAds.framework */,
+				651A55B91C68FD9F00EE0893 /* JTMaterialTransition.h */,
+				651A55BA1C68FD9F00EE0893 /* JTMaterialTransition.m */,
+				651A55B31C68FB1600EE0893 /* BFPaperButton.h */,
+				651A55B41C68FB1600EE0893 /* BFPaperButton.m */,
+				651A55B01C68FAF700EE0893 /* UIColor+BFPaperColors.h */,
+				651A55B11C68FAF700EE0893 /* UIColor+BFPaperColors.m */,
+				65755F5C1C6837CD00BFBA79 /* YRActivityIndicator */,
+				65755EF31C6833F400BFBA79 /* DGActivityIndicatorView */,
 				65755EC31C680CC500BFBA79 /* AppDelegate.h */,
 				65755EC41C680CC500BFBA79 /* AppDelegate.m */,
 				65755EC61C680CC500BFBA79 /* ViewController.h */,
@@ -110,6 +470,8 @@
 				65755ECE1C680CC500BFBA79 /* LaunchScreen.storyboard */,
 				65755ED11C680CC500BFBA79 /* Info.plist */,
 				65755EC01C680CC500BFBA79 /* Supporting Files */,
+				651A55B61C68FC2800EE0893 /* startViewController.h */,
+				651A55B71C68FC2800EE0893 /* startViewController.m */,
 			);
 			path = "Snow Day Calculator";
 			sourceTree = "<group>";
@@ -117,6 +479,59 @@
 		65755EC01C680CC500BFBA79 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				65FE20D11C79660300A6651B /* Reachability.h */,
+				65FE20D21C79660300A6651B /* Reachability.m */,
+				6519D3AC1C77E2B60019F96C /* AppiraterDelegate.h */,
+				6519D3A91C77E2A20019F96C /* Appirater.h */,
+				6519D3AA1C77E2A20019F96C /* Appirater.m */,
+				6519D39D1C77D4B50019F96C /* MBCircularProgressBarLayer.h */,
+				6519D39E1C77D4B50019F96C /* MBCircularProgressBarLayer.m */,
+				6519D39F1C77D4B50019F96C /* MBCircularProgressBarView.h */,
+				6519D3A01C77D4B50019F96C /* MBCircularProgressBarView.m */,
+				6519D3901C77C6380019F96C /* Library */,
+				65356D8F1C751775003B16A1 /* MCCore.h */,
+				65356D901C751775003B16A1 /* MCNewCustomLayer.h */,
+				65356D911C751775003B16A1 /* MCNewCustomLayer.m */,
+				65356D921C751775003B16A1 /* MCNewCustomLayeredView.h */,
+				65356D931C751775003B16A1 /* MCNewCustomLayeredView.m */,
+				65356D941C751775003B16A1 /* MCNewCustomLayeredView+MCCustomLayeredViewSubclass.h */,
+				65356D951C751775003B16A1 /* MCPercentageDoughnutView.h */,
+				65356D961C751775003B16A1 /* MCPercentageDoughnutView.m */,
+				65356D971C751775003B16A1 /* MCSliceLayer.h */,
+				65356D981C751775003B16A1 /* MCSliceLayer.m */,
+				65356D991C751775003B16A1 /* MCUtil.h */,
+				65356D9A1C751775003B16A1 /* MCUtil.m */,
+				65907F431C7401AA0049A5AC /* materialLandscape.png */,
+				650EB0C71C718771003284AD /* material.png */,
+				659F2A591C6F9A95003BFECC /* UIViewController+MaterialDesign.h */,
+				659F2A5A1C6F9A95003BFECC /* UIViewController+MaterialDesign.m */,
+				659F2A3E1C6F959F003BFECC /* Roboto-Black.ttf */,
+				659F2A3F1C6F959F003BFECC /* Roboto-BlackItalic.ttf */,
+				659F2A401C6F959F003BFECC /* Roboto-Bold.ttf */,
+				659F2A411C6F959F003BFECC /* Roboto-BoldItalic.ttf */,
+				659F2A421C6F959F003BFECC /* Roboto-Italic.ttf */,
+				659F2A431C6F959F003BFECC /* Roboto-Light.ttf */,
+				659F2A441C6F959F003BFECC /* Roboto-LightItalic.ttf */,
+				659F2A451C6F959F003BFECC /* Roboto-Medium.ttf */,
+				659F2A461C6F959F003BFECC /* Roboto-MediumItalic.ttf */,
+				659F2A471C6F959F003BFECC /* Roboto-Regular.ttf */,
+				659F2A481C6F959F003BFECC /* Roboto-Thin.ttf */,
+				659F2A491C6F959F003BFECC /* Roboto-ThinItalic.ttf */,
+				65B420FA1C6EC2A000981502 /* ic_share.png */,
+				65B420FB1C6EC2A000981502 /* ic_share@2x.png */,
+				65B420FC1C6EC2A000981502 /* ic_share@3x.png */,
+				65B420F41C6EBF1200981502 /* ic_arrow@2x.png */,
+				65B420F51C6EBF1200981502 /* ic_arrow@3x.png */,
+				65B420F61C6EBF1200981502 /* ic_arrow.png */,
+				652214DF1C695CD4008A71AA /* 750x1334.png */,
+				652214E01C695CD4008A71AA /* 1242x 2208.png */,
+				652214E11C695CD4008A71AA /* 640x1136.png */,
+				652214E21C695CD4008A71AA /* 640x960.png */,
+				65AB89DB1C6910030059AF30 /* SnowDayIcon180.png */,
+				65AB89DC1C6910030059AF30 /* SnowDayIcon120.png */,
+				65AB89DD1C6910030059AF30 /* SnowDayIcon80.png */,
+				65AB89DE1C6910030059AF30 /* SnowDayIcon87.png */,
+				65AB89DF1C6910030059AF30 /* SnowDayIcon58.png */,
 				65755EC11C680CC500BFBA79 /* main.m */,
 			);
 			name = "Supporting Files";
@@ -131,18 +546,159 @@
 			path = "Snow Day CalculatorTests";
 			sourceTree = "<group>";
 		};
-		65755EE41C680CC600BFBA79 /* Snow Day CalculatorUITests */ = {
+		65755EF31C6833F400BFBA79 /* DGActivityIndicatorView */ = {
 			isa = PBXGroup;
 			children = (
-				65755EE51C680CC600BFBA79 /* Snow_Day_CalculatorUITests.m */,
-				65755EE71C680CC600BFBA79 /* Info.plist */,
+				65755EF41C6833F400BFBA79 /* Animations */,
+				65755F371C6833F400BFBA79 /* DGActivityIndicatorAnimationProtocol.h */,
+				65755F381C6833F400BFBA79 /* DGActivityIndicatorView.h */,
+				65755F391C6833F400BFBA79 /* DGActivityIndicatorView.m */,
 			);
-			path = "Snow Day CalculatorUITests";
+			path = DGActivityIndicatorView;
+			sourceTree = "<group>";
+		};
+		65755EF41C6833F400BFBA79 /* Animations */ = {
+			isa = PBXGroup;
+			children = (
+				65755EF51C6833F400BFBA79 /* DGActivityIndicatorBallBeatAnimation.h */,
+				65755EF61C6833F400BFBA79 /* DGActivityIndicatorBallBeatAnimation.m */,
+				65755EF71C6833F400BFBA79 /* DGActivityIndicatorBallClipRotateAnimation.h */,
+				65755EF81C6833F400BFBA79 /* DGActivityIndicatorBallClipRotateAnimation.m */,
+				65755EF91C6833F400BFBA79 /* DGActivityIndicatorBallClipRotateMultipleAnimation.h */,
+				65755EFA1C6833F400BFBA79 /* DGActivityIndicatorBallClipRotateMultipleAnimation.m */,
+				65755EFB1C6833F400BFBA79 /* DGActivityIndicatorBallClipRotatePulseAnimation.h */,
+				65755EFC1C6833F400BFBA79 /* DGActivityIndicatorBallClipRotatePulseAnimation.m */,
+				65755EFD1C6833F400BFBA79 /* DGActivityIndicatorBallGridBeatAnimation.h */,
+				65755EFE1C6833F400BFBA79 /* DGActivityIndicatorBallGridBeatAnimation.m */,
+				65755EFF1C6833F400BFBA79 /* DGActivityIndicatorBallGridPulseAnimation.h */,
+				65755F001C6833F400BFBA79 /* DGActivityIndicatorBallGridPulseAnimation.m */,
+				65755F011C6833F400BFBA79 /* DGActivityIndicatorBallPulseAnimation.h */,
+				65755F021C6833F400BFBA79 /* DGActivityIndicatorBallPulseAnimation.m */,
+				65755F031C6833F400BFBA79 /* DGActivityIndicatorBallPulseSyncAnimation.h */,
+				65755F041C6833F400BFBA79 /* DGActivityIndicatorBallPulseSyncAnimation.m */,
+				65755F051C6833F400BFBA79 /* DGActivityIndicatorBallRotateAnimation.h */,
+				65755F061C6833F400BFBA79 /* DGActivityIndicatorBallRotateAnimation.m */,
+				65755F071C6833F400BFBA79 /* DGActivityIndicatorBallScaleAnimation.h */,
+				65755F081C6833F400BFBA79 /* DGActivityIndicatorBallScaleAnimation.m */,
+				65755F091C6833F400BFBA79 /* DGActivityIndicatorBallScaleMultipleAnimation.h */,
+				65755F0A1C6833F400BFBA79 /* DGActivityIndicatorBallScaleMultipleAnimation.m */,
+				65755F0B1C6833F400BFBA79 /* DGActivityIndicatorBallScaleRippleAnimation.h */,
+				65755F0C1C6833F400BFBA79 /* DGActivityIndicatorBallScaleRippleAnimation.m */,
+				65755F0D1C6833F400BFBA79 /* DGActivityIndicatorBallScaleRippleMultipleAnimation.h */,
+				65755F0E1C6833F400BFBA79 /* DGActivityIndicatorBallScaleRippleMultipleAnimation.m */,
+				65755F0F1C6833F400BFBA79 /* DGActivityIndicatorBallSpinFadeLoader.h */,
+				65755F101C6833F400BFBA79 /* DGActivityIndicatorBallSpinFadeLoader.m */,
+				65755F111C6833F400BFBA79 /* DGActivityIndicatorBallTrianglePathAnimation.h */,
+				65755F121C6833F400BFBA79 /* DGActivityIndicatorBallTrianglePathAnimation.m */,
+				65755F131C6833F400BFBA79 /* DGActivityIndicatorBallZigZagAnimation.h */,
+				65755F141C6833F400BFBA79 /* DGActivityIndicatorBallZigZagAnimation.m */,
+				65755F151C6833F400BFBA79 /* DGActivityIndicatorBallZigZagDeflectAnimation.h */,
+				65755F161C6833F400BFBA79 /* DGActivityIndicatorBallZigZagDeflectAnimation.m */,
+				65755F171C6833F400BFBA79 /* DGActivityIndicatorCookieTerminatorAnimation.h */,
+				65755F181C6833F400BFBA79 /* DGActivityIndicatorCookieTerminatorAnimation.m */,
+				65755F191C6833F400BFBA79 /* DGActivityIndicatorDoubleBounceAnimation.h */,
+				65755F1A1C6833F400BFBA79 /* DGActivityIndicatorDoubleBounceAnimation.m */,
+				65755F1B1C6833F400BFBA79 /* DGActivityIndicatorFiveDotsAnimation.h */,
+				65755F1C1C6833F400BFBA79 /* DGActivityIndicatorFiveDotsAnimation.m */,
+				65755F1D1C6833F400BFBA79 /* DGActivityIndicatorLineScaleAnimation.h */,
+				65755F1E1C6833F400BFBA79 /* DGActivityIndicatorLineScaleAnimation.m */,
+				65755F1F1C6833F400BFBA79 /* DGActivityIndicatorLineScalePartyAnimation.h */,
+				65755F201C6833F400BFBA79 /* DGActivityIndicatorLineScalePartyAnimation.m */,
+				65755F211C6833F400BFBA79 /* DGActivityIndicatorLineScalePulseOutAnimation.h */,
+				65755F221C6833F400BFBA79 /* DGActivityIndicatorLineScalePulseOutAnimation.m */,
+				65755F231C6833F400BFBA79 /* DGActivityIndicatorLineScalePulseOutRapidAnimation.h */,
+				65755F241C6833F400BFBA79 /* DGActivityIndicatorLineScalePulseOutRapidAnimation.m */,
+				65755F251C6833F400BFBA79 /* DGActivityIndicatorNineDotsAnimation.h */,
+				65755F261C6833F400BFBA79 /* DGActivityIndicatorNineDotsAnimation.m */,
+				65755F271C6833F400BFBA79 /* DGActivityIndicatorRotatingSandglassAnimation.h */,
+				65755F281C6833F400BFBA79 /* DGActivityIndicatorRotatingSandglassAnimation.m */,
+				65755F291C6833F400BFBA79 /* DGActivityIndicatorRotatingSquaresAnimation.h */,
+				65755F2A1C6833F400BFBA79 /* DGActivityIndicatorRotatingSquaresAnimation.m */,
+				65755F2B1C6833F400BFBA79 /* DGActivityIndicatorRotatingTrigonAnimation.h */,
+				65755F2C1C6833F400BFBA79 /* DGActivityIndicatorRotatingTrigonAnimation.m */,
+				65755F2D1C6833F400BFBA79 /* DGActivityIndicatorThreeDotsAnimation.h */,
+				65755F2E1C6833F400BFBA79 /* DGActivityIndicatorThreeDotsAnimation.m */,
+				65755F2F1C6833F400BFBA79 /* DGActivityIndicatorTriangleSkewSpinAnimation.h */,
+				65755F301C6833F400BFBA79 /* DGActivityIndicatorTriangleSkewSpinAnimation.m */,
+				65755F311C6833F400BFBA79 /* DGActivityIndicatorTriplePulseAnimation.h */,
+				65755F321C6833F400BFBA79 /* DGActivityIndicatorTriplePulseAnimation.m */,
+				65755F331C6833F400BFBA79 /* DGActivityIndicatorTripleRingsAnimation.h */,
+				65755F341C6833F400BFBA79 /* DGActivityIndicatorTripleRingsAnimation.m */,
+				65755F351C6833F400BFBA79 /* DGActivityIndicatorTwoDotsAnimation.h */,
+				65755F361C6833F400BFBA79 /* DGActivityIndicatorTwoDotsAnimation.m */,
+			);
+			path = Animations;
+			sourceTree = "<group>";
+		};
+		65755F5C1C6837CD00BFBA79 /* YRActivityIndicator */ = {
+			isa = PBXGroup;
+			children = (
+				65755F5D1C6837CD00BFBA79 /* YRActivityIndicator.h */,
+				65755F5E1C6837CD00BFBA79 /* YRActivityIndicator.m */,
+			);
+			path = YRActivityIndicator;
+			sourceTree = "<group>";
+		};
+		65ACBEDA1C691E6E000368BF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6519D3A71C77E2640019F96C /* CFNetwork.framework */,
+				6531E9BD1C74061600240213 /* libsqlite3.dylib */,
+				6531E9BA1C7405D400240213 /* libz.1.dylib */,
+				65907F511C74056D0049A5AC /* CoreData.framework */,
+				65907F3D1C73EFEC0049A5AC /* SystemConfiguration.framework */,
+				65907F3B1C73EFE60049A5AC /* StoreKit.framework */,
+				65907F371C73EFDF0049A5AC /* EventKit.framework */,
+				65907F381C73EFDF0049A5AC /* EventKitUI.framework */,
+				65907F351C73EFD20049A5AC /* CoreTelephony.framework */,
+				65907F331C73EFCB0049A5AC /* CoreMedia.framework */,
+				65907F311C73EFC30049A5AC /* CoreGraphics.framework */,
+				65907F2F1C73EFBC0049A5AC /* AVFoundation.framework */,
+				65907F2D1C73EFB60049A5AC /* AudioToolbox.framework */,
+				65907F2B1C73EFB00049A5AC /* AdSupport.framework */,
+				65EF89AD1C6B990E008121AD /* iAd.framework */,
+				65ACBEDB1C691E6E000368BF /* NotificationCenter.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		65596DAE1C79220D0015BD2A /* Snow Day App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 65596DD51C79220D0015BD2A /* Build configuration list for PBXNativeTarget "Snow Day App" */;
+			buildPhases = (
+				65596DAD1C79220D0015BD2A /* Resources */,
+				65596DD41C79220D0015BD2A /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				65596DBE1C79220D0015BD2A /* PBXTargetDependency */,
+			);
+			name = "Snow Day App";
+			productName = "Snow Day App";
+			productReference = 65596DAF1C79220D0015BD2A /* Snow Day App.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		65596DBA1C79220D0015BD2A /* Snow Day App Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 65596DD11C79220D0015BD2A /* Build configuration list for PBXNativeTarget "Snow Day App Extension" */;
+			buildPhases = (
+				65596DB71C79220D0015BD2A /* Sources */,
+				65596DB81C79220D0015BD2A /* Frameworks */,
+				65596DB91C79220D0015BD2A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Snow Day App Extension";
+			productName = "Snow Day App Extension";
+			productReference = 65596DBB1C79220D0015BD2A /* Snow Day App Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
 		65755EBC1C680CC500BFBA79 /* Snow Day Calculator */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 65755EEA1C680CC600BFBA79 /* Build configuration list for PBXNativeTarget "Snow Day Calculator" */;
@@ -150,6 +706,7 @@
 				65755EB91C680CC500BFBA79 /* Sources */,
 				65755EBA1C680CC500BFBA79 /* Frameworks */,
 				65755EBB1C680CC500BFBA79 /* Resources */,
+				65596DD81C79220D0015BD2A /* Embed Watch Content */,
 			);
 			buildRules = (
 			);
@@ -196,6 +753,40 @@
 			productReference = 65755EE11C680CC600BFBA79 /* Snow Day CalculatorUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
+		65ACBED81C691E6E000368BF /* Snow */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 65ACBEEA1C691E6E000368BF /* Build configuration list for PBXNativeTarget "Snow" */;
+			buildPhases = (
+				65ACBED51C691E6E000368BF /* Sources */,
+				65ACBED61C691E6E000368BF /* Frameworks */,
+				65ACBED71C691E6E000368BF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Snow;
+			productName = Snow;
+			productReference = 65ACBED91C691E6E000368BF /* Snow.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		65ACBEEF1C691EBB000368BF /* Snow Day Calculator Widget */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 65ACBEFD1C691EBB000368BF /* Build configuration list for PBXNativeTarget "Snow Day Calculator Widget" */;
+			buildPhases = (
+				65ACBEEC1C691EBB000368BF /* Sources */,
+				65ACBEED1C691EBB000368BF /* Frameworks */,
+				65ACBEEE1C691EBB000368BF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Snow Day Calculator Widget";
+			productName = "Snow Day Calculator Widget";
+			productReference = 65ACBEF01C691EBB000368BF /* Snow Day Calculator Widget.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -205,8 +796,16 @@
 				LastUpgradeCheck = 0710;
 				ORGANIZATIONNAME = "Stratton Design";
 				TargetAttributes = {
+					65596DAE1C79220D0015BD2A = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = 56SYM3NGXF;
+					};
+					65596DBA1C79220D0015BD2A = {
+						CreatedOnToolsVersion = 7.3;
+					};
 					65755EBC1C680CC500BFBA79 = {
 						CreatedOnToolsVersion = 7.1;
+						DevelopmentTeam = 56SYM3NGXF;
 					};
 					65755ED51C680CC600BFBA79 = {
 						CreatedOnToolsVersion = 7.1;
@@ -215,6 +814,14 @@
 					65755EE01C680CC600BFBA79 = {
 						CreatedOnToolsVersion = 7.1;
 						TestTargetID = 65755EBC1C680CC500BFBA79;
+					};
+					65ACBED81C691E6E000368BF = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = 3U9HK5BL2M;
+					};
+					65ACBEEF1C691EBB000368BF = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = 3U9HK5BL2M;
 					};
 				};
 			};
@@ -234,18 +841,65 @@
 				65755EBC1C680CC500BFBA79 /* Snow Day Calculator */,
 				65755ED51C680CC600BFBA79 /* Snow Day CalculatorTests */,
 				65755EE01C680CC600BFBA79 /* Snow Day CalculatorUITests */,
+				65ACBED81C691E6E000368BF /* Snow */,
+				65ACBEEF1C691EBB000368BF /* Snow Day Calculator Widget */,
+				65596DAE1C79220D0015BD2A /* Snow Day App */,
+				65596DBA1C79220D0015BD2A /* Snow Day App Extension */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		65596DAD1C79220D0015BD2A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		65596DB91C79220D0015BD2A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		65755EBB1C680CC500BFBA79 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				659F2A551C6F959F003BFECC /* Roboto-ThinItalic.ttf in Resources */,
+				659F2A511C6F959F003BFECC /* Roboto-Medium.ttf in Resources */,
+				65907F441C7401AA0049A5AC /* materialLandscape.png in Resources */,
+				65AB89E01C6910030059AF30 /* SnowDayIcon180.png in Resources */,
+				652214E31C695CD4008A71AA /* 750x1334.png in Resources */,
+				652214E41C695CD4008A71AA /* 1242x 2208.png in Resources */,
 				65755ED01C680CC500BFBA79 /* LaunchScreen.storyboard in Resources */,
+				652214E51C695CD4008A71AA /* 640x1136.png in Resources */,
+				65AB89E31C6910030059AF30 /* SnowDayIcon87.png in Resources */,
+				659F2A521C6F959F003BFECC /* Roboto-MediumItalic.ttf in Resources */,
+				65AB89E21C6910030059AF30 /* SnowDayIcon80.png in Resources */,
+				659F2A4B1C6F959F003BFECC /* Roboto-BlackItalic.ttf in Resources */,
 				65755ECD1C680CC500BFBA79 /* Assets.xcassets in Resources */,
+				659F2A4E1C6F959F003BFECC /* Roboto-Italic.ttf in Resources */,
 				65755ECB1C680CC500BFBA79 /* Main.storyboard in Resources */,
+				65B420FF1C6EC2A000981502 /* ic_share@3x.png in Resources */,
+				65B420F71C6EBF1200981502 /* ic_arrow@2x.png in Resources */,
+				659F2A4D1C6F959F003BFECC /* Roboto-BoldItalic.ttf in Resources */,
+				659F2A4F1C6F959F003BFECC /* Roboto-Light.ttf in Resources */,
+				65B420F81C6EBF1200981502 /* ic_arrow@3x.png in Resources */,
+				65B420F91C6EBF1200981502 /* ic_arrow.png in Resources */,
+				659F2A501C6F959F003BFECC /* Roboto-LightItalic.ttf in Resources */,
+				659F2A4C1C6F959F003BFECC /* Roboto-Bold.ttf in Resources */,
+				659F2A541C6F959F003BFECC /* Roboto-Thin.ttf in Resources */,
+				650EB0C81C718771003284AD /* material.png in Resources */,
+				65AB89E11C6910030059AF30 /* SnowDayIcon120.png in Resources */,
+				659F2A531C6F959F003BFECC /* Roboto-Regular.ttf in Resources */,
+				659F2A4A1C6F959F003BFECC /* Roboto-Black.ttf in Resources */,
+				65B420FD1C6EC2A000981502 /* ic_share.png in Resources */,
+				65AB89E41C6910030059AF30 /* SnowDayIcon58.png in Resources */,
+				65B420FE1C6EC2A000981502 /* ic_share@2x.png in Resources */,
+				652214E61C695CD4008A71AA /* 640x960.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -263,16 +917,86 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		65ACBED71C691E6E000368BF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		65ACBEEE1C691EBB000368BF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		65596DB71C79220D0015BD2A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		65755EB91C680CC500BFBA79 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6519D3AB1C77E2A20019F96C /* Appirater.m in Sources */,
+				65755F461C6833F400BFBA79 /* DGActivityIndicatorBallScaleRippleMultipleAnimation.m in Sources */,
+				65755F491C6833F400BFBA79 /* DGActivityIndicatorBallZigZagAnimation.m in Sources */,
+				6519D3A11C77D4B50019F96C /* MBCircularProgressBarLayer.m in Sources */,
+				65755F441C6833F400BFBA79 /* DGActivityIndicatorBallScaleMultipleAnimation.m in Sources */,
+				65755F4F1C6833F400BFBA79 /* DGActivityIndicatorLineScalePartyAnimation.m in Sources */,
+				65755F481C6833F400BFBA79 /* DGActivityIndicatorBallTrianglePathAnimation.m in Sources */,
+				65755F5A1C6833F400BFBA79 /* DGActivityIndicatorTwoDotsAnimation.m in Sources */,
+				651A55B21C68FAF700EE0893 /* UIColor+BFPaperColors.m in Sources */,
+				65755F4B1C6833F400BFBA79 /* DGActivityIndicatorCookieTerminatorAnimation.m in Sources */,
+				65755F521C6833F400BFBA79 /* DGActivityIndicatorNineDotsAnimation.m in Sources */,
+				65755F3C1C6833F400BFBA79 /* DGActivityIndicatorBallClipRotateMultipleAnimation.m in Sources */,
+				65755F4A1C6833F400BFBA79 /* DGActivityIndicatorBallZigZagDeflectAnimation.m in Sources */,
+				65755F561C6833F400BFBA79 /* DGActivityIndicatorThreeDotsAnimation.m in Sources */,
+				65755F5F1C6837CD00BFBA79 /* YRActivityIndicator.m in Sources */,
+				65755F591C6833F400BFBA79 /* DGActivityIndicatorTripleRingsAnimation.m in Sources */,
+				65755F501C6833F400BFBA79 /* DGActivityIndicatorLineScalePulseOutAnimation.m in Sources */,
+				65356D9B1C751775003B16A1 /* MCNewCustomLayer.m in Sources */,
+				65356D9D1C751775003B16A1 /* MCPercentageDoughnutView.m in Sources */,
+				65356D9F1C751775003B16A1 /* MCUtil.m in Sources */,
+				65356D9C1C751775003B16A1 /* MCNewCustomLayeredView.m in Sources */,
+				65755F5B1C6833F400BFBA79 /* DGActivityIndicatorView.m in Sources */,
+				65755F3B1C6833F400BFBA79 /* DGActivityIndicatorBallClipRotateAnimation.m in Sources */,
+				65755F3F1C6833F400BFBA79 /* DGActivityIndicatorBallGridPulseAnimation.m in Sources */,
+				65755F471C6833F400BFBA79 /* DGActivityIndicatorBallSpinFadeLoader.m in Sources */,
+				65755F551C6833F400BFBA79 /* DGActivityIndicatorRotatingTrigonAnimation.m in Sources */,
+				65FE20D31C79660300A6651B /* Reachability.m in Sources */,
 				65755EC81C680CC500BFBA79 /* ViewController.m in Sources */,
+				651A55B81C68FC2800EE0893 /* startViewController.m in Sources */,
+				65755F4D1C6833F400BFBA79 /* DGActivityIndicatorFiveDotsAnimation.m in Sources */,
+				651A55B51C68FB1600EE0893 /* BFPaperButton.m in Sources */,
+				65755F411C6833F400BFBA79 /* DGActivityIndicatorBallPulseSyncAnimation.m in Sources */,
+				65755F3A1C6833F400BFBA79 /* DGActivityIndicatorBallBeatAnimation.m in Sources */,
+				65755F401C6833F400BFBA79 /* DGActivityIndicatorBallPulseAnimation.m in Sources */,
+				65755F571C6833F400BFBA79 /* DGActivityIndicatorTriangleSkewSpinAnimation.m in Sources */,
+				65356D9E1C751775003B16A1 /* MCSliceLayer.m in Sources */,
+				65755F4E1C6833F400BFBA79 /* DGActivityIndicatorLineScaleAnimation.m in Sources */,
+				65755F431C6833F400BFBA79 /* DGActivityIndicatorBallScaleAnimation.m in Sources */,
+				65755F451C6833F400BFBA79 /* DGActivityIndicatorBallScaleRippleAnimation.m in Sources */,
+				659F2A5B1C6F9A95003BFECC /* UIViewController+MaterialDesign.m in Sources */,
 				65755EC51C680CC500BFBA79 /* AppDelegate.m in Sources */,
+				65755F3D1C6833F400BFBA79 /* DGActivityIndicatorBallClipRotatePulseAnimation.m in Sources */,
+				65755F581C6833F400BFBA79 /* DGActivityIndicatorTriplePulseAnimation.m in Sources */,
 				65755EC21C680CC500BFBA79 /* main.m in Sources */,
+				65755F511C6833F400BFBA79 /* DGActivityIndicatorLineScalePulseOutRapidAnimation.m in Sources */,
+				65755F4C1C6833F400BFBA79 /* DGActivityIndicatorDoubleBounceAnimation.m in Sources */,
+				65755F421C6833F400BFBA79 /* DGActivityIndicatorBallRotateAnimation.m in Sources */,
+				65755F541C6833F400BFBA79 /* DGActivityIndicatorRotatingSquaresAnimation.m in Sources */,
+				651A55BB1C68FD9F00EE0893 /* JTMaterialTransition.m in Sources */,
+				65755F3E1C6833F400BFBA79 /* DGActivityIndicatorBallGridBeatAnimation.m in Sources */,
+				65755F531C6833F400BFBA79 /* DGActivityIndicatorRotatingSandglassAnimation.m in Sources */,
+				6519D3A21C77D4B50019F96C /* MBCircularProgressBarView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -288,13 +1012,31 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				65755EE61C680CC600BFBA79 /* Snow_Day_CalculatorUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		65ACBED51C691E6E000368BF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		65ACBEEC1C691EBB000368BF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		65596DBE1C79220D0015BD2A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 65596DBA1C79220D0015BD2A /* Snow Day App Extension */;
+			targetProxy = 65596DBD1C79220D0015BD2A /* PBXContainerItemProxy */;
+		};
 		65755ED81C680CC600BFBA79 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 65755EBC1C680CC500BFBA79 /* Snow Day Calculator */;
@@ -327,6 +1069,68 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		65596DD21C79220D0015BD2A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Snow Day App Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.strattondesign.Snow-Day-Calculator-App.watchkitapp.watchkitextension";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.2;
+			};
+			name = Debug;
+		};
+		65596DD31C79220D0015BD2A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Snow Day App Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.strattondesign.Snow-Day-Calculator-App.watchkitapp.watchkitextension";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.2;
+			};
+			name = Release;
+		};
+		65596DD61C79220D0015BD2A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Korrent Corporation (56SYM3NGXF)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Korrent Corporation (56SYM3NGXF)";
+				IBSC_MODULE = Snow_Day_App_Extension;
+				INFOPLIST_FILE = "Snow Day App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.strattondesign.Snow-Day-Calculator-App.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.2;
+			};
+			name = Debug;
+		};
+		65596DD71C79220D0015BD2A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Korrent Corporation (56SYM3NGXF)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Korrent Corporation (56SYM3NGXF)";
+				IBSC_MODULE = Snow_Day_App_Extension;
+				INFOPLIST_FILE = "Snow Day App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.strattondesign.Snow-Day-Calculator-App.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.2;
+			};
+			name = Release;
+		};
 		65755EE81C680CC600BFBA79 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -411,10 +1215,104 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = BrandAsset;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Korrent Corporation (56SYM3NGXF)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Korrent Corporation (56SYM3NGXF)";
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Snow",
+					Day,
+					Calculator,
+					"$(PROJECT_DIR)/Snow",
+					Day,
+					Calculator,
+					"$(PROJECT_DIR)/Snow",
+					Day,
+					Calculator,
+					"$(PROJECT_DIR)/Snow",
+					Day,
+					Calculator,
+					"$(PROJECT_DIR)/Snow",
+					Day,
+					Calculator,
+					"$(PROJECT_DIR)/Snow",
+					Day,
+					Calculator,
+					"$(PROJECT_DIR)/Snow",
+					Day,
+					Calculator,
+					"$(PROJECT_DIR)/Snow",
+					Day,
+					Calculator,
+					"$(PROJECT_DIR)/Snow",
+					Day,
+					Calculator,
+					"$(PROJECT_DIR)/Snow",
+					Day,
+					Calculator,
+					"$(PROJECT_DIR)/Snow",
+					Day,
+					Calculator,
+					"$(PROJECT_DIR)/Snow",
+					Day,
+					Calculator,
+					"$(PROJECT_DIR)/Snow",
+					Day,
+					Calculator,
+					"$(PROJECT_DIR)/Snow",
+					Day,
+					Calculator,
+					"$(PROJECT_DIR)/Snow",
+					Day,
+					Calculator,
+					"$(PROJECT_DIR)/Snow",
+					Day,
+					Calculator,
+				);
 				INFOPLIST_FILE = "Snow Day Calculator/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.strattondesign.Snow-Day-Calculator";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Snow",
+					Day,
+					Calculator,
+					"$(PROJECT_DIR)/Snow",
+					Day,
+					Calculator,
+					"$(PROJECT_DIR)/Snow",
+					Day,
+					Calculator,
+					"$(PROJECT_DIR)/Snow",
+					Day,
+					Calculator,
+					"$(PROJECT_DIR)/Snow",
+					Day,
+					Calculator,
+					"$(PROJECT_DIR)/Snow",
+					Day,
+					Calculator,
+					"$(PROJECT_DIR)/Snow",
+					Day,
+					Calculator,
+					"$(PROJECT_DIR)/Snow",
+					Day,
+					Calculator,
+					"$(PROJECT_DIR)/Snow",
+					Day,
+					Calculator,
+					"$(PROJECT_DIR)/Snow",
+					Day,
+					Calculator,
+					"$(PROJECT_DIR)/Snow",
+					Day,
+					Calculator,
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.strattondesign.Snow-Day-Calculator-App";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "acaa173f-6bc5-4ea0-bc0e-cef085e867c5";
 			};
 			name = Debug;
 		};
@@ -422,10 +1320,104 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = BrandAsset;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Korrent Corporation (56SYM3NGXF)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Korrent Corporation (56SYM3NGXF)";
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Snow",
+					Day,
+					Calculator,
+					"$(PROJECT_DIR)/Snow",
+					Day,
+					Calculator,
+					"$(PROJECT_DIR)/Snow",
+					Day,
+					Calculator,
+					"$(PROJECT_DIR)/Snow",
+					Day,
+					Calculator,
+					"$(PROJECT_DIR)/Snow",
+					Day,
+					Calculator,
+					"$(PROJECT_DIR)/Snow",
+					Day,
+					Calculator,
+					"$(PROJECT_DIR)/Snow",
+					Day,
+					Calculator,
+					"$(PROJECT_DIR)/Snow",
+					Day,
+					Calculator,
+					"$(PROJECT_DIR)/Snow",
+					Day,
+					Calculator,
+					"$(PROJECT_DIR)/Snow",
+					Day,
+					Calculator,
+					"$(PROJECT_DIR)/Snow",
+					Day,
+					Calculator,
+					"$(PROJECT_DIR)/Snow",
+					Day,
+					Calculator,
+					"$(PROJECT_DIR)/Snow",
+					Day,
+					Calculator,
+					"$(PROJECT_DIR)/Snow",
+					Day,
+					Calculator,
+					"$(PROJECT_DIR)/Snow",
+					Day,
+					Calculator,
+					"$(PROJECT_DIR)/Snow",
+					Day,
+					Calculator,
+				);
 				INFOPLIST_FILE = "Snow Day Calculator/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.strattondesign.Snow-Day-Calculator";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Snow",
+					Day,
+					Calculator,
+					"$(PROJECT_DIR)/Snow",
+					Day,
+					Calculator,
+					"$(PROJECT_DIR)/Snow",
+					Day,
+					Calculator,
+					"$(PROJECT_DIR)/Snow",
+					Day,
+					Calculator,
+					"$(PROJECT_DIR)/Snow",
+					Day,
+					Calculator,
+					"$(PROJECT_DIR)/Snow",
+					Day,
+					Calculator,
+					"$(PROJECT_DIR)/Snow",
+					Day,
+					Calculator,
+					"$(PROJECT_DIR)/Snow",
+					Day,
+					Calculator,
+					"$(PROJECT_DIR)/Snow",
+					Day,
+					Calculator,
+					"$(PROJECT_DIR)/Snow",
+					Day,
+					Calculator,
+					"$(PROJECT_DIR)/Snow",
+					Day,
+					Calculator,
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.strattondesign.Snow-Day-Calculator-App";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "acaa173f-6bc5-4ea0-bc0e-cef085e867c5";
 			};
 			name = Release;
 		};
@@ -477,9 +1469,75 @@
 			};
 			name = Release;
 		};
+		65ACBEE81C691E6E000368BF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = Snow/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.strattondesign.Snow-Day-Calculator.Snow";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		65ACBEE91C691E6E000368BF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = Snow/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.strattondesign.Snow-Day-Calculator.Snow";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		65ACBEFE1C691EBB000368BF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Snow Day Calculator Widget/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.strattondesign.Snow-Day-Calculator.Snow-Day-Calculator-Widget";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		65ACBEFF1C691EBB000368BF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Snow Day Calculator Widget/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.strattondesign.Snow-Day-Calculator.Snow-Day-Calculator-Widget";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		65596DD11C79220D0015BD2A /* Build configuration list for PBXNativeTarget "Snow Day App Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				65596DD21C79220D0015BD2A /* Debug */,
+				65596DD31C79220D0015BD2A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		65596DD51C79220D0015BD2A /* Build configuration list for PBXNativeTarget "Snow Day App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				65596DD61C79220D0015BD2A /* Debug */,
+				65596DD71C79220D0015BD2A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		65755EB81C680CC500BFBA79 /* Build configuration list for PBXProject "Snow Day Calculator" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -496,6 +1554,7 @@
 				65755EEC1C680CC600BFBA79 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		65755EED1C680CC600BFBA79 /* Build configuration list for PBXNativeTarget "Snow Day CalculatorTests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +1563,7 @@
 				65755EEF1C680CC600BFBA79 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		65755EF01C680CC600BFBA79 /* Build configuration list for PBXNativeTarget "Snow Day CalculatorUITests" */ = {
 			isa = XCConfigurationList;
@@ -512,6 +1572,25 @@
 				65755EF21C680CC600BFBA79 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		65ACBEEA1C691E6E000368BF /* Build configuration list for PBXNativeTarget "Snow" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				65ACBEE81C691E6E000368BF /* Debug */,
+				65ACBEE91C691E6E000368BF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		65ACBEFD1C691EBB000368BF /* Build configuration list for PBXNativeTarget "Snow Day Calculator Widget" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				65ACBEFE1C691EBB000368BF /* Debug */,
+				65ACBEFF1C691EBB000368BF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
